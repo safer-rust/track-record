@@ -1,4 +1,4 @@
-| PR/Issue                                                   | API                                                        | Info                     | Contributor    |
+| Pull Request/Issue                                         | API                                                        | Info                     | Contributor    |
 | ---------------------------------------------------------- | ---------------------------------------------------------- | ------------------------ | ---------------|
 | [2928](https://github.com/asterinas/asterinas/issues/2928) | call_ostd_main                                             | safe => unsafe           | hxuhack        |
 | [2707](https://github.com/asterinas/asterinas/issues/2707) | (x86, riscv) bringup_all_aps                               | vague safety requirement | Unparalleled-Calvin |
