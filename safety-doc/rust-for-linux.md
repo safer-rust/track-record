@@ -1,0 +1,5 @@
+| Email Link                                                                                                                              | API                          | Info             | Contributor      |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ------------------------ | --------------- |
+| [Re: [PATCH v2] rust: dma: remove incorrect safety documentation](https://lore.kernel.org/all/DFARBS5X3XAV.304WNUYV2ES3Q@kernel.org/#r) | as_slice_mut                 | remove incorrect safety documentation | yilin0518          |
+| [Re: [PATCH v2] rust: device_id: replace incorrect word in safety documentation](https://lore.kernel.org/all/DFARBV6C1ITF.32UCXF6AYE2A8@kernel.org/)     | RawDeviceId | fix doc: replace incorrect work | yilin0518       |
+| [Re: [PATCH v3 RESEND] rust: cpumask: rename methods of Cpumask for clarity and consistency](https://lore.kernel.org/all/aWS9yf1iwWW-O0y6@google.com/)   | as_mut_ref -> from_raw_mut, as_ref -> from_raw | rename method | yilin0518 |
