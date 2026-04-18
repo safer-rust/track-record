@@ -1,5 +1,6 @@
 | Pull Request | API | Info | Contributor |
 | --- | --- | --- | --- |
+| [155450](https://github.com/rust-lang/rust/pull/155450) | usize::unchecked_add, usize::unchecked_sub, usize::unchecked_mul | Remove unnecessary safety conditions | hxuhack |
 | [154665](https://github.com/rust-lang/rust/pull/154665) | mem::uninitialized, mem::zeroed, mem::transmute_copy | Add safety section (syntax/semantic) | hxuhack |
 | [154081](https://github.com/rust-lang/rust/pull/154081) | Rc::from_raw, Rc::from_raw_in, Arc::from_raw, Arc::from_raw_in | Add safety section (syntax) | hxuhack |
 | [153384](https://github.com/rust-lang/rust/pull/153384) | CString::from_vec_unchecked, async_drop_in_place | Add safety section | hxuhack |
