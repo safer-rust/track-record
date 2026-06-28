@@ -15,3 +15,6 @@
 | [134953](https://github.com/rust-lang/rust/pull/134953) | ptr::read_unaligned, ptr::write_unaligned | Add missing safety preconditions | ClearLove |
 | [134496](https://github.com/rust-lang/rust/pull/134496) | Arc::from_raw, Arc::increment_strong_count, Arc::decrement_strong_count | Add missing safety preconditions | ClearLove |
 | [158314](https://github.com/rust-lang/rust/pull/158314) | int::unchecked_div_exact | Fix incorrect unsafe debug assertion | yilin0518 |
+| [158382](https://github.com/rust-lang/rust/pull/158382) | SliceIndex::get_unchecked(mut) | Add safety section for SliceIndex::get_unchecked(mut) | yilin0518 |
+| [158433](https://github.com/rust-lang/rust/pull/158433) | VecDeque::nonoverlapping_ranges | Fix inconsistent safety requirement in VecDeque::nonoverlapping_ranges | yilin0518 |
+
