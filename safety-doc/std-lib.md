@@ -19,4 +19,5 @@
 | [158433](https://github.com/rust-lang/rust/pull/158433) | VecDeque::nonoverlapping_ranges | Fix inconsistent safety requirement in VecDeque::nonoverlapping_ranges | yilin0518 |
 | [158810](https://github.com/rust-lang/rust/pull/158810) | *const[T]::get_unchecked, NonNull<[T]>::get_unchecked_mut | Add supplementary information | yilin0518 |
 | [2183](https://github.com/rust-lang/stdarch/pull/2183)  | _mm_stream_si32, _mm_stream_si64 | Add supplementary information | yilin0518 |
+| [158804](https://github.com/rust-lang/rust/pull/158804) | *mut T::as_uninit_mut | Add supplementary information | yilin0518 |
 
