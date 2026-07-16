@@ -15,9 +15,10 @@
 | [134953](https://github.com/rust-lang/rust/pull/134953) | ptr::read_unaligned, ptr::write_unaligned | Add missing safety preconditions | ClearLove |
 | [134496](https://github.com/rust-lang/rust/pull/134496) | Arc::from_raw, Arc::increment_strong_count, Arc::decrement_strong_count | Add missing safety preconditions | ClearLove |
 | [158314](https://github.com/rust-lang/rust/pull/158314) | int::unchecked_div_exact | Fix incorrect unsafe debug assertion | yilin0518 |
-| [158382](https://github.com/rust-lang/rust/pull/158382) | SliceIndex::get_unchecked(mut) | Add safety section for SliceIndex::get_unchecked(mut) | yilin0518 |
-| [158433](https://github.com/rust-lang/rust/pull/158433) | VecDeque::nonoverlapping_ranges | Fix inconsistent safety requirement in VecDeque::nonoverlapping_ranges | yilin0518 |
+| [158382](https://github.com/rust-lang/rust/pull/158382) | SliceIndex::get_unchecked(mut) | Add safety section (syntax)  | yilin0518 |
+| [158433](https://github.com/rust-lang/rust/pull/158433) | VecDeque::nonoverlapping_ranges | Fix inconsistent safety requirement | yilin0518 |
 | [158810](https://github.com/rust-lang/rust/pull/158810) | *const[T]::get_unchecked, NonNull<[T]>::get_unchecked_mut | Add supplementary information | yilin0518 |
 | [2183](https://github.com/rust-lang/stdarch/pull/2183)  | _mm_stream_si32, _mm_stream_si64 | Add supplementary information | yilin0518 |
 | [158804](https://github.com/rust-lang/rust/pull/158804) | *mut T::as_uninit_mut | Add supplementary information | yilin0518 |
+| [159322](https://github.com/rust-lang/rust/pull/159322) | intrinsic::simd::simd_gather, intrinsic::simd::simd_scatter| Fix safety section | yilin0518 |
 
