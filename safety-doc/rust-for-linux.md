@@ -4,3 +4,4 @@
 | [Re: [PATCH v2] rust: device_id: replace incorrect word in safety documentation](https://lore.kernel.org/all/DFARBV6C1ITF.32UCXF6AYE2A8@kernel.org/)     | RawDeviceId | fix doc: replace incorrect work | yilin0518       |
 | [Re: [PATCH v3 RESEND] rust: cpumask: rename methods of Cpumask for clarity and consistency](https://lore.kernel.org/all/aWS9yf1iwWW-O0y6@google.com/)   | as_mut_ref -> from_raw_mut, as_ref -> from_raw | rename method | yilin0518 |
 | [Re: [PATCH v2] rust: drm: fix GEM object pointer safety docs](https://lore.kernel.org/all/alUFzVNxNHlmZbMJ@google.com/) | from_raw | fix safety doc | yilin0518 |
+| [[PATCH] rust: miscdevice: fix write_iter safety docs](https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git/commit/?h=char-misc-testing&id=4b17dfb3e22fdccf74839d2fc52362ddc257024e) | write_iter | fix safety doc | yilin0518 |
