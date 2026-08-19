@@ -8,3 +8,5 @@
 | [Add missing safety requirement](https://github.com/bevyengine/bevy/pull/25272) | ThinSlicePtr::get_unchecked, ThinSlicePtr::cast, UnsafeCellDeref::deref_mut, UnsafeCellDeref::deref | fix safety doc | yilin0518 |
 | [Fix: replace fixed comps with comps calculation](https://github.com/bevyengine/bevy/pull/25293) | CompressedImageSaverUniversal::save | fix API implementation | yilin0518 |
 | [Fix: remove unnecessary unsafe of ErasedBundleTemplate::apply](https://github.com/bevyengine/bevy/pull/25279) | ErasedBundleTemplate::apply | fix API signature | yilin0518 |
+| [Fix use-after-free in single-threaded TaskPool::scope during unwinding](https://github.com/bevyengine/bevy/pull/25248) | TaskPool::scope | fix UB during unwinding | kiana1kaslana |
+| [Fix unsound insert_by_ids with short iterator](https://github.com/bevyengine/bevy/pull/25266) | insert_by_ids | fix UB from short iterator | kiana1kaslana |
