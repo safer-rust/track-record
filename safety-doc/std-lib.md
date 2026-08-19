@@ -22,4 +22,6 @@
 | [158804](https://github.com/rust-lang/rust/pull/158804) | *mut T::as_uninit_mut | Add supplementary information | yilin0518 |
 | [159322](https://github.com/rust-lang/rust/pull/159322) | intrinsic::simd::simd_gather, intrinsic::simd::simd_scatter| Fix safety section | yilin0518 |
 | [159402](https://github.com/rust-lang/rust/pull/159402) | intrinsic::simd::simd_shl/shr, intrinsic::simd::simd_funnel_shl/shr, intrinsic::simd::simd_masked_load, intrinsic::simd::simd_masked_store| Fix safety section | yilin0518 |
+| [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls | kiana1kaslana |
+| [161019](https://github.com/rust-lang/rust/pull/161019) | str::parse, from_ascii_bytes_radix_impl | SWAR acceleration for decimal parse | kiana1kaslana |
 
