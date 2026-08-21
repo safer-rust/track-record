@@ -24,4 +24,6 @@
 | [159402](https://github.com/rust-lang/rust/pull/159402) | intrinsic::simd::simd_shl/shr, intrinsic::simd::simd_funnel_shl/shr, intrinsic::simd::simd_masked_load, intrinsic::simd::simd_masked_store| Fix safety section | yilin0518 |
 | [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls | kiana1kaslana |
 | [161019](https://github.com/rust-lang/rust/pull/161019) | str::parse, from_ascii_bytes_radix_impl | SWAR acceleration for decimal parse | kiana1kaslana |
+| [161271](doc: document safety requirements for core WTF-8) | CodePoint::from_u32_unchecked, Wtf8::from_bytes_unchecked, Wtf8::from_mut_bytes_unchecked | Add safety section | yilin0518 |
+| [161292](Add safety comments in alloc::Wtf8) | alloc::Wtf8 | Add safety section and discharge | yilin0518 |
 
