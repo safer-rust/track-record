@@ -7,3 +7,7 @@ Updates and improvements to unsafe API documentation across:
 - [Rust for Linux](safety-doc/rust-for-linux.md)
 - [Asterinas](safety-doc/asterinas.md)
 - [Bevy](safety-doc/bevy.md)
+
+## Lint Fixes
+
+- [Rust Clippy](clippy.md)

@@ -10,3 +10,4 @@
 | [Fix: remove unnecessary unsafe of ErasedBundleTemplate::apply](https://github.com/bevyengine/bevy/pull/25279) | ErasedBundleTemplate::apply | fix API signature | yilin0518 |
 | [Fix use-after-free in single-threaded TaskPool::scope during unwinding](https://github.com/bevyengine/bevy/pull/25248) | TaskPool::scope | fix UB during unwinding | kiana1kaslana |
 | [Fix unsound insert_by_ids with short iterator](https://github.com/bevyengine/bevy/pull/25266) | insert_by_ids | fix UB from short iterator | kiana1kaslana |
+| [Document how to enable `RenderDebugOverlay`](https://github.com/bevyengine/bevy/pull/25554) | RenderDebugOverlay | add documentation (merged) | kiana1kaslana |
