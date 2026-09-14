@@ -22,8 +22,11 @@
 | [158804](https://github.com/rust-lang/rust/pull/158804) | *mut T::as_uninit_mut | Add supplementary information | yilin0518 |
 | [159322](https://github.com/rust-lang/rust/pull/159322) | intrinsic::simd::simd_gather, intrinsic::simd::simd_scatter| Fix safety section | yilin0518 |
 | [159402](https://github.com/rust-lang/rust/pull/159402) | intrinsic::simd::simd_shl/shr, intrinsic::simd::simd_funnel_shl/shr, intrinsic::simd::simd_masked_load, intrinsic::simd::simd_masked_store| Fix safety section | yilin0518 |
-| [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls | kiana1kaslana |
+| [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls (closed: superseded by #156160) | kiana1kaslana |
 | [161019](https://github.com/rust-lang/rust/pull/161019) | str::parse, from_ascii_bytes_radix_impl | SWAR acceleration for decimal parse | kiana1kaslana |
 | [161271](https://github.com/rust-lang/rust/pull/161271) | CodePoint::from_u32_unchecked, Wtf8::from_bytes_unchecked, Wtf8::from_mut_bytes_unchecked | Add safety section | yilin0518 |
 | [161292](https://github.com/rust-lang/rust/pull/161292) | alloc::Wtf8 | Add safety section and discharge | yilin0518 |
+| [161607](https://github.com/rust-lang/rust/pull/161607) | signed integer div/rem methods (i8-i128) | Add #[track_caller] (merged) | kiana1kaslana |
+| [162369](https://github.com/rust-lang/rust/pull/162369) | `recursion_limit` built-in attribute | Document the built-in attribute | kiana1kaslana |
+| [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs | kiana1kaslana |
 
