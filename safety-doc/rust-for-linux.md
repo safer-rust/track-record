@@ -8,3 +8,5 @@
 | [Re: [PATCH v2] rust: configfs: fix release safety documentation](https://lore.kernel.org/all/87zez07n5k.fsf@t14s.mail-host-address-is-not-set/) | ItemOperationsVTable::release() | fix safety doc | yilin0518 |
 | [[PATCH v2] rust: configfs: require thread-safe callback data](https://lore.kernel.org/all/tencent_5449081195EDDF5726C709CF648DD4044A08@qq.com/T/#u) | get_group_data(), Subsystem<Data>, GroupOperations, AttributeOperations | Add Send/Sync bound and fix safety doc | yilin0518 |
 | [[PATCH] rust: bitfield: require Zeroable storage for Zeroable impl](https://lore.kernel.org/all/tencent_AA30574AC78ECFD88D7E042A49371119ED08@qq.com/) | bitfield! | Add trait bound and update safety doc | yilin0518 |
+| [[PATCH] rust: print: document safety of formatting calls](https://lore.kernel.org/all/tencent_5F3F1A5D096692FC22CADA8FAF888EE39E09@qq.com/) | write_fmt, bindings::_printk | fix safety doc | yilin0518 |
+| [[PATCH] rust: list: document safety discharge and add offset_of! check](https://lore.kernel.org/all/tencent_F3A825AD475CB58F5C0D1C833FD3353E130A@qq.com/) | remove, impl_has_list_links_self_ptr!, impl_list_item! | fix safety doc | yilin0518 | 
