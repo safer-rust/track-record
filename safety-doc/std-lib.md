@@ -28,8 +28,11 @@
 | [161292](https://github.com/rust-lang/rust/pull/161292) | alloc::Wtf8 | Add safety section and discharge | yilin0518 |
 | [161607](https://github.com/rust-lang/rust/pull/161607) | signed integer div/rem methods (i8-i128) | Add #[track_caller] (merged) | kiana1kaslana |
 | [162369](https://github.com/rust-lang/rust/pull/162369) | `recursion_limit` built-in attribute | Document the built-in attribute | kiana1kaslana |
-| [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs | kiana1kaslana |
+| [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs (closed: superseded by #162879) | kiana1kaslana |
 | [162854](https://github.com/rust-lang/rust/pull/162854) | atomic_load, atomic_store | Add safety section | yilin0518 |
+| [162879](https://github.com/rust-lang/rust/pull/162879) | core::num::bignum | Use u64 limbs (merged) | kiana1kaslana |
+| [163008](https://github.com/rust-lang/rust/pull/163008) | core::mem::transmute_neo | Add safety section (merged) | kiana1kaslana |
+| [163093](https://github.com/rust-lang/rust/pull/163093) | intrinsic::volatile_copy_memory | Add safety doc (closed: volatile API deprecated) | kiana1kaslana |
 | [163140](https://github.com/rust-lang/rust/pull/163140) | atomic_(cxchg, cxchgweak, xchg, xadd, xsub, and. nand, or, xor, max, min, umax, umin) | Add safety section | yilin0518 |
 | [163141](https://github.com/rust-lang/rust/pull/163141) | disjoint_bitor, unchecked_funnel_shl, unchecked_funnel_shr | Add safety section | yilin0518 |
 
