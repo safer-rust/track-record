@@ -38,3 +38,4 @@
 | [2243](https://github.com/rust-lang/stdarch/pull/2243) | __arm_mte_create_random_tag, __arm_mte_increment_tag, __arm_mte_exclude_tag, __arm_mte_set_tag, __arm_mte_get_tag, __arm_mte_ptrdiff | Add safety section | yilin0518 |
 | [2241](https://github.com/rust-lang/stdarch/pull/2241) | __wfi, __wfe, __sev, __sevl, __yield, __nop | remove redundant unsafe | yilin0518 |
 | [163952](https://github.com/rust-lang/rust/pull/163952) | alloc/linked_list.rs | Add call-site check | yilin0518 |
+| [164213](https://github.com/rust-lang/rust/pull/164213) | LocalWaker::from_raw | Add safety section | yilin0518 |
