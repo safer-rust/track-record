@@ -1,3 +1,7 @@
+# Rust Standard Library
+
+## Safety Documentation and Contracts
+
 | Pull Request | API | Info | Contributor |
 | --- | --- | --- | --- |
 | [155559](https://github.com/rust-lang/rust/pull/155559) | NonZero::unchecked_add, NonZero::unchecked_mul | Add safety section (syntax) | hxuhack |
@@ -22,15 +26,9 @@
 | [158804](https://github.com/rust-lang/rust/pull/158804) | *mut T::as_uninit_mut | Add supplementary information | yilin0518 |
 | [159322](https://github.com/rust-lang/rust/pull/159322) | intrinsic::simd::simd_gather, intrinsic::simd::simd_scatter| Fix safety section | yilin0518 |
 | [159402](https://github.com/rust-lang/rust/pull/159402) | intrinsic::simd::simd_shl/shr, intrinsic::simd::simd_funnel_shl/shr, intrinsic::simd::simd_masked_load, intrinsic::simd::simd_masked_store| Fix safety section | yilin0518 |
-| [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls (closed: superseded by #156160) | kiana1kaslana |
-| [161019](https://github.com/rust-lang/rust/pull/161019) | str::parse, from_ascii_bytes_radix_impl | SWAR acceleration for decimal parse | kiana1kaslana |
 | [161271](https://github.com/rust-lang/rust/pull/161271) | CodePoint::from_u32_unchecked, Wtf8::from_bytes_unchecked, Wtf8::from_mut_bytes_unchecked | Add safety section | yilin0518 |
 | [161292](https://github.com/rust-lang/rust/pull/161292) | alloc::Wtf8 | Add safety section and discharge | yilin0518 |
-| [161607](https://github.com/rust-lang/rust/pull/161607) | signed integer div/rem methods (i8-i128) | Add #[track_caller] (merged) | kiana1kaslana |
-| [162369](https://github.com/rust-lang/rust/pull/162369) | `recursion_limit` built-in attribute | Document the built-in attribute | kiana1kaslana |
-| [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs (closed: superseded by #162879) | kiana1kaslana |
 | [162854](https://github.com/rust-lang/rust/pull/162854) | atomic_load, atomic_store | Add safety section | yilin0518 |
-| [162879](https://github.com/rust-lang/rust/pull/162879) | core::num::bignum | Use u64 limbs (merged) | kiana1kaslana |
 | [163008](https://github.com/rust-lang/rust/pull/163008) | core::mem::transmute_neo | Add safety section (merged) | kiana1kaslana |
 | [163093](https://github.com/rust-lang/rust/pull/163093) | intrinsic::volatile_copy_memory | Add safety doc (closed: volatile API deprecated) | kiana1kaslana |
 | [163140](https://github.com/rust-lang/rust/pull/163140) | atomic_(cxchg, cxchgweak, xchg, xadd, xsub, and. nand, or, xor, max, min, umax, umin) | Add safety section | yilin0518 |
@@ -45,4 +43,17 @@
 | [2251](https://github.com/rust-lang/stdarch/pull/2251) | _xrstor, _xrstors and their 64-bit variants | Document restore-area validity, alignment and format requirements (open) | kiana1kaslana |
 | [2252](https://github.com/rust-lang/stdarch/pull/2252) | _xsetbv, _xgetbv | Document supported-register and legal-value requirements (open) | kiana1kaslana |
 | [2253](https://github.com/rust-lang/stdarch/pull/2253) | _bittest, _bittestandset, _bittestandreset, _bittestandcomplement and their 64-bit variants | Document pointer validity and bit-index bounds (open) | kiana1kaslana |
+
+## Other Rust Contributions
+
+Contributions to the official Rust repository that are outside safety documentation and contract standardization are recorded separately below.
+
+| Pull Request | API | Info | Contributor |
+| --- | --- | --- | --- |
+| [160973](https://github.com/rust-lang/rust/pull/160973) | Vec<T,A>: PartialEq<Cow<'_, [U]>>, &mut [T]: PartialEq<Cow<'_, [U]>> | Add reverse PartialEq impls (closed: superseded by #156160) | kiana1kaslana |
+| [161019](https://github.com/rust-lang/rust/pull/161019) | str::parse, from_ascii_bytes_radix_impl | SWAR acceleration for decimal parse | kiana1kaslana |
+| [161607](https://github.com/rust-lang/rust/pull/161607) | signed integer div/rem methods (i8-i128) | Add #[track_caller] (merged) | kiana1kaslana |
+| [162369](https://github.com/rust-lang/rust/pull/162369) | `recursion_limit` built-in attribute | Document the built-in attribute | kiana1kaslana |
+| [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs (closed: superseded by #162879) | kiana1kaslana |
+| [162879](https://github.com/rust-lang/rust/pull/162879) | core::num::bignum | Use u64 limbs (merged) | kiana1kaslana |
 | [164189](https://github.com/rust-lang/rust/pull/164189) | `windows_subsystem` built-in attribute | Document the built-in attribute (merged) | kiana1kaslana |
