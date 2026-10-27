@@ -35,7 +35,6 @@
 | [163141](https://github.com/rust-lang/rust/pull/163141) | disjoint_bitor, unchecked_funnel_shl, unchecked_funnel_shr | Add safety section | yilin0518 |
 | [2243](https://github.com/rust-lang/stdarch/pull/2243) | __arm_mte_create_random_tag, __arm_mte_increment_tag, __arm_mte_exclude_tag, __arm_mte_set_tag, __arm_mte_get_tag, __arm_mte_ptrdiff | Add safety section | yilin0518 |
 | [2241](https://github.com/rust-lang/stdarch/pull/2241) | __wfi, __wfe, __sev, __sevl, __yield, __nop | remove redundant unsafe | yilin0518 |
-| [163952](https://github.com/rust-lang/rust/pull/163952) | alloc/linked_list.rs | Add call-site check | yilin0518 |
 | [164213](https://github.com/rust-lang/rust/pull/164213) | LocalWaker::from_raw | Add safety section | yilin0518 |
 | [2245](https://github.com/rust-lang/stdarch/pull/2245) | fxsave/fxrstor, xsave and bittest intrinsics | Add safety sections (closed: split into #2249, #2250, #2251, #2252 and #2253) | kiana1kaslana |
 | [2249](https://github.com/rust-lang/stdarch/pull/2249) | _fxsave, _fxrstor, _fxsave64, _fxrstor64 | Document memory validity, alignment and saved-state requirements (open) | kiana1kaslana |
@@ -43,6 +42,8 @@
 | [2251](https://github.com/rust-lang/stdarch/pull/2251) | _xrstor, _xrstors and their 64-bit variants | Document restore-area validity, alignment and format requirements (open) | kiana1kaslana |
 | [2252](https://github.com/rust-lang/stdarch/pull/2252) | _xsetbv, _xgetbv | Document supported-register and legal-value requirements (open) | kiana1kaslana |
 | [2253](https://github.com/rust-lang/stdarch/pull/2253) | _bittest, _bittestandset, _bittestandreset, _bittestandcomplement and their 64-bit variants | Document pointer validity and bit-index bounds (open) | kiana1kaslana |
+| [164241](https://github.com/rust-lang/rust/pull/164241) | core::ptr | Improve safety requirement | yilin0518 |
+| [163918](https://github.com/rust-lang/rust/pull/163918)| __wfi, __wfe, __sev, __sevl, __yield, __nop | remove unsafe mark | yilin0518 |
 
 ## Other Rust Contributions
 
@@ -57,3 +58,6 @@ Contributions to the official Rust repository that are outside safety documentat
 | [162746](https://github.com/rust-lang/rust/pull/162746) | core::num::bignum | Use u64 limbs (closed: superseded by #162879) | kiana1kaslana |
 | [162879](https://github.com/rust-lang/rust/pull/162879) | core::num::bignum | Use u64 limbs (merged) | kiana1kaslana |
 | [164189](https://github.com/rust-lang/rust/pull/164189) | `windows_subsystem` built-in attribute | Document the built-in attribute (merged) | kiana1kaslana |
+| [163952](https://github.com/rust-lang/rust/pull/163952) | alloc/linked_list.rs | Add call-site check | yilin0518 |
+| [163445](https://github.com/rust-lang/rust/pull/163445) | alloc/str.rs| Add call-site check | yilin0518 |
+| [163463](https://github.com/rust-lang/rust/pull/163463) | alloc/string.rs| Add call-site check | yilin0518 |
